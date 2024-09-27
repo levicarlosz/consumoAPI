@@ -1,0 +1,61 @@
+.loginScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.Container {
+  width: 600px;
+  color: var(--white-050);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: var(--blue-dark-100);
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+}
+.Container h3 {
+  padding-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.Container {
+  span {
+    color: #8f8f97;
+    padding-bottom: 2rem;
+  }
+  a {
+    color: var(--white-050);
+  }
+}
+
+.Container form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+  a {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.Container form input {
+  border: 1px solid var(--border);
+  height: 3rem;
+  padding: 0 1rem;
+  background-color: var(--blue-dark-100);
+  border-radius: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.Container form input[type="submit"] {
+  background-color: #f43c3c;
+  font-size: 1.2rem;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}

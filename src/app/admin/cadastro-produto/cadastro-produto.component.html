@@ -1,0 +1,33 @@
+<main>
+      <div class="Container">
+        <h3><i class="ph ph-plus-square"></i> Cadastrar Produtos</h3>
+        <span>Preencha os dados para cadastrar um produto</span>
+        <form action="">
+          <input
+            type="text"
+            name="name"
+            [(ngModel)]="produto.name"
+            placeholder="Nome"
+          />
+          <input
+            type="text"
+            name="name"
+            [(ngModel)]="produto.description"
+            placeholder="Descrição"
+          />
+          <input
+          type="text"
+          name="name"
+          [(ngModel)]="produto.foto"
+          placeholder="Foto"
+        />
+          <input
+            type="number"
+            name="price"
+            [(ngModel)]="produto.price"
+            placeholder="Preço"
+          />
+          <input (click)="cadastrar()" type="submit" value="Cadastrar" />
+        </form>
+      </div>
+</main>

@@ -1,0 +1,39 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "name": "Jogo 33",
+      "description": "Descrição do jogo 1",
+      "foto": "jogo1.PNG",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "Jogo 2",
+      "description": "Descrição do jogo 2",
+      "foto": "jogo2.PNG",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "name": "Jogo 3",
+      "description": "Descrição do jogo 3",
+      "foto": "jogo3.PNG",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Minecraft",
+      "description": "Aventura em blocos",
+      "foto": "minecraft.jpg",
+      "price": 119.9
+    },
+    {
+      "id": 5,
+      "name": "Red Dead Redemption 2",
+      "description": "Jogo mundo aberto cowboy",
+      "foto": "reddead2.webp",
+      "price": 269.9
+    }
+  ]
+}

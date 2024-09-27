@@ -1,0 +1,8 @@
+<li *ngFor="let p of products">
+  <div  class="card">
+    <img src="./assets/img/{{ p.foto }}" alt="Imagem do Produto" />
+    <p>{{ p.name }}</p>
+    <span>{{ p.price | currency : "BRL"}}</span>
+    <a href="#">Comprar agora</a>
+  </div>
+</li>

@@ -1,0 +1,38 @@
+
+<main>
+    <div class="Container">
+      <h3><i class="ph ph-pencil-simple"></i> Atualizar Produto</h3>
+      <span>Altere os dados de um produto</span>
+      <form *ngIf="product" action="">
+        <input
+          type="text" name="id" [(ngModel)]="product.id" readonly
+          readonly
+        />
+        <input
+          type="text"
+          name="name"
+          [(ngModel)]="product.name"
+          placeholder="Nome"
+        />
+        <input
+          type="text"
+          name="description"
+          [(ngModel)]="product.description"
+          placeholder="Descrição"
+        />
+        <input
+        type="text"
+        name="foto"
+        [(ngModel)]="product.foto"
+        placeholder="Foto"
+      />
+        <input
+          type="number"
+          name="price"
+          [(ngModel)]="product.price"
+          placeholder="Preço"
+        />
+        <input (click)="atualizar(product.id)" type="submit" value="Atualizar" />
+      </form>
+    </div>
+</main>

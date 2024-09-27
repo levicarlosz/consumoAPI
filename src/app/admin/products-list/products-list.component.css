@@ -1,0 +1,77 @@
+.userScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .headerUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-bottom: 1px solid var(--border);
+    width: 100%;
+    padding: 1.25rem 0;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.userContainer {
+  width: auto;
+  color: var(--white-050);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: var(--blue-dark-100);
+  border-radius: 0.5rem;
+}
+
+.userContainer {
+  span {
+    color: #8f8f97;
+    padding-bottom: 2rem;
+  }
+  a {
+    color: var(--white-050);
+  }
+  .edit {
+    color: var(--yellow-500);
+  }
+  .delete {
+    color: var(--red-500);
+  }
+
+  h3 {
+    padding-bottom: 0.5rem;
+    font-size: 1.6rem;
+  }
+
+  .modalHeader {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  table {
+    width: 100%;
+    border-spacing: 0px;
+  }
+  thead {
+    padding: 1.5rem 2rem;
+  }
+  th {
+    color: var(--gray-50);
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+  }
+
+  tbody td {
+    text-align: left;
+    padding: 1rem 2rem;
+    height: 3rem;
+    border: 0px solid;
+  }
+  tr:nth-child(even) {
+    background-color: var(--blue-dark-50);
+    border: 0px solid;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}

@@ -1,0 +1,113 @@
+
+header {
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+footer{
+    margin-top: 3rem;
+    border-top: var(--border) 1px solid;
+    width: 100%;
+    padding: 3.5rem 3rem;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img{
+    width: 10rem;
+}
+footer p a {
+    color: var(--red-500);
+}
+a,ul,input {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+    margin: 0;
+    padding: 0;
+}
+a:hover, input[type="submit"]:hover{
+    filter: brightness(0.7);
+}
+.headerContent {
+    display: grid;  
+    width: 100%;
+    grid-template-columns: minmax(auto, 240px) minmax(auto, auto) minmax(auto, 120px) minmax(auto, 180px);
+    align-items: center;
+    height: 5rem;
+    padding: 0 3rem;
+    border-bottom:1px solid var(--border);
+}
+
+.headerContent img{
+    width: 10rem;
+}
+.headerContent .searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    background-color: var(--blue-dark-100);
+    border-radius: 0.75rem;
+    border: 1px solid var(--border);
+
+}
+
+.headerContent .searchBar input, .headerContent .searchBar button{
+    font-size: 1.2rem;
+    border: 0px solid;
+    
+    height: 100%;
+    color: var(--white-050);
+    background: none;
+}
+.headerContent .searchBar input{
+    width: 100%;
+    padding: 0rem 1rem;
+    border-right: 1px solid var(--border);
+}
+
+.headerContent .searchBar button{
+    cursor: pointer;
+    padding: 0rem 1rem;
+}
+
+.headerContent .headerLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--white-050);
+    font-size: 1.5rem;
+}
+
+.headerContent .accountLinks {
+    color: var(--white-050);
+    font-size: 1.1rem;
+}
+
+
+header nav {
+    color: var(--white-050);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    height: 2.5rem;
+    border-bottom:1px solid var(--border);
+    padding: 0 3rem;
+}
+
+header nav ul{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+
+}

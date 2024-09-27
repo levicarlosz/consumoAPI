@@ -1,0 +1,22 @@
+
+<div class="loginScreen">
+  <div class="headerLogin">
+
+    <a  href="/">
+      <img src="../../assets/img/logo.svg" alt="logo-game-mania" cover
+      /></a>
+    </div>
+
+    <div class="loginContainer">
+      <h3><i class="ph ph-sign-in"></i> Login</h3>
+      <span>Novo usuário?<a href="#"> Crie uma conta</a></span>
+      <form action="">
+        <input type="text" name="usuario" [(ngModel)]="user" placeholder="Digite seu e-mail" />
+        <input type="password" name="senha" [(ngModel)]="password" placeholder="Digite sua senha" />
+        <input (click)="fazerLogin()" type="submit" value="Entrar" />
+        <a href="#">Esqueceu a senha?</a>
+      </form>
+    </div>
+  </div>
+
+  
